@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+    <style>
+        body{
+            background-color: #E6E6FA;
+        }
+        p{
+            font-size: 1in;
+            color: white;
+            background: linear-gradient(red,orange,yellow, green, blue, indigo, violet);
+        }
+        div{
+            width: 150px;
+            height: 150px;
+            margin: 20px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <p>Ми вивчаємо градієнти</p>
+    <!-- Linear Gradients  -->
+    <div style="background: linear-gradient(to right, #8e44ad, #3498db);"></div>
+    <div style="background: linear-gradient(to left, #e74c3c, #f1c40f);"></div>
+    <div style="background: linear-gradient(to right bottom, #2ecc71, #1abc9c);"></div>
+    <div style="background: linear-gradient(to left, #34495e, #7f8c8d);"></div>
+    <div style="background: linear-gradient(45deg, #d35400, #c0392b);"></div>
+    <div style="background: linear-gradient(225deg, #16a085, #27ae60);"></div>
+    <div style="background: linear-gradient(#2980b9, #8e44ad);"></div>
+    <div style="background: linear-gradient(45deg, #f39c12 30%, #e67e22);"></div>
+    <div style="background: linear-gradient(45deg, #ecf0f1 30%, #bdc3c7 70%);"></div>
+    <div style="background: linear-gradient(45deg, #95a5a6 50%, #7f8c8d 50%);"></div>
+    <div style="background: linear-gradient(360deg, #f39c12 50%, #d35400 50%); width: 350px;"></div>
+    <div style="background: linear-gradient(#27ae60 25%, #2ecc71 50%, #3498db 75%, #9b59b6 100%); width: 350px;"></div>
+
+    <!-- Radial Gradients  -->
+    <div style="background: radial-gradient(#e74c3c, #f1c40f);"></div>
+    <div style="background: radial-gradient(#16a085 30%, #1abc9c);"></div>
+    <div style="background: radial-gradient(circle at 50px 50px,#2ecc71 30%, #3498db);"></div>
+    <div style="background: radial-gradient(circle at 100px 50px,#34495e 30%, #7f8c8d);"></div>
+    <div style="background: radial-gradient(circle at 0px 75px,#d35400 30%, #c0392b);"></div>
+    <div style="background: radial-gradient(#8e44ad 30%, #9b59b6 70%); border-radius: 20%;"></div>
+    <div style="background: radial-gradient(#f39c12 30%, #e67e22 70%); border-radius: 40%;"></div>
+    <div style="background: radial-gradient(#ecf0f1 30%, #bdc3c7 30%); border-radius: 40%;"></div>
+
+    <!-- Conic Gradients -->
+    <div style="background: conic-gradient(#95a5a6, #7f8c8d);"></div>
+    <div style="background: conic-gradient(#f39c12, #d35400, #8e44ad, #9b59b6);"></div>
+    <div style="background: conic-gradient(from 45deg, #27ae60, #2ecc71, #3498db, #2980b9);"></div>
+    <div style="background: conic-gradient(at 100px 100px, #34495e, #7f8c8d, #95a5a6, #bdc3c7);"></div>
+
+    <!-- Repeating Gradients -->
+    <div style="background: repeating-linear-gradient(#e74c3c 10px, #f1c40f 20px);"></div>
+    <div style="background: repeating-linear-gradient(#16a085 10%, #1abc9c 20%);"></div>
+    <div style="background: repeating-linear-gradient(#2ecc71 0 10%, #3498db 10% 20%);"></div>
+    <div style="background: repeating-linear-gradient(#34495e 0 10%, #7f8c8d 10% 30%);"></div>
+    <div style="background: repeating-radial-gradient(#d35400 0 10%, #c0392b 10% 30%);"></div>
+    <div style="background: repeating-radial-gradient(#8e44ad 10%, #9b59b6 20%);"></div>
+    <div style="background: repeating-conic-gradient(#f39c12 5%, #e67e22 10%, #ecf0f1 15%, #bdc3c7 20%);"></div>
+    <div style="background: repeating-conic-gradient(#95a5a6 0% 5%, #7f8c8d 5% 10%, #34495e 10% 15%, #7f8c8d 15% 20%);"></div> 
+
+</body>
+</html>
